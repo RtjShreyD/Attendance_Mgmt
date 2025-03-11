@@ -1,16 +1,16 @@
 import requests
 import json
 
-BASE_URL = "http://127.0.0.1:5000"  # Change this to your Flask app's URL
+BASE_URL = "http://127.0.0.1:5000"
 
 # Test Create User
 def test_create_user():
     print("Testing create user...")
     data = {
-        "type": "admin",
-        "full_name": "John Doe",
-        "username": "johndoe",
-        "email": "john.doe@example.com",
+        "type": "user",
+        "full_name": "Shreyansh Dube",
+        "username": "shd",
+        "email": "shd.dub@example.com",
         "password": "password123",
         "submitted_by": "admin"
     }
